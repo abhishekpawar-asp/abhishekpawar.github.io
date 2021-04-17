@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>abhishekpawar</title>
+</head>
+
+  <h1>Welcome to GitHub</h1>
+  <h2>Git Main Ingredients: Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</h2>
+  
+  <h4>Git notes : https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbXhDS0U0TnM4di16TTVDUmNCZ2xmZUFoOU9QQXxBQ3Jtc0tsRzhNWHg3LXpBd0drUWhKbm1nRTFMWjhJMDBKS1Y3d0FoS3J3dkdNeVVBRk90Ykkta3QwOFluM3dveUdrTFNRVzFxakVfVnZkUUs5OURIRVR1d2diOUJPUG1qaXpheDQzc3dxdXVkb3kxeFgyMUhlOA&q=https%3A%2F%2Fwww.thapatechnical.com%2F2019%2F01%2Fgit-workflow-working-tree-staging-area.html </h4>
+
+  <h4> ________Steps________ </h4>
+  <p>Create local directory</p>
+  <p>Command "git status"</p>
+  <p>Command "Git init" to intialize git directory</p>
+  <p>Command "git status"</p>
+  <p>To create global (global=local, Local can be different.) email address/user Command "git config --global user.email" / "git congig --global user.name" </p>
+  <p>Make a index.html file for testing : add context using command : notepad index.html</p>
+  <p>Execute command : "git status" it will ask you to "git add" to add in 'staging area' to know the git and add into 'git commit' in git repository as file just saved in working directory</p>
+  <p>To add in staging area command : "git add 'file name'" e.g "git add index.html" for multiple files to add "git add ."</p>
+  <p>Optional to remove "git rm --cached 'file name'"</p>
+  <p>To add in repository command "git commit -m 'First Commit for index file'"</p>
+  <p>To know the changes user log : "git log"</p>
+  <p>"git log --oneline" To know the git id: It will show you your all commits (only to see first 3 lines then use "git log --oneline -3".</p>
+  
+  <h2>GitHub is a code hosting platform for version control and collaboration, It let you and others to work together on project to anywhere</h2>
+  <p>…or create a new repository on the command line </p>
+		<p>echo "# Test" >> README.md </p>
+		<p>git init </p>
+		<p>git add README.md </p>
+		<p>git commit -m "first commit" </p>
+		<p>git branch -M main </p>
+		<p>git remote add origin git@github.com:abhishekpawar-asp/Test.git </p>
+		<p>git push -u origin main </p>
+
+		<p>…or push an existing repository from the command line </p>
+		<p>git remote add origin git@github.com:abhishekpawar-asp/Test.git </p>
+		<p>git branch -M main </p>
+		<p>git push -u origin main </p>
+		
+		<p>To reslove the error error: src refspec master does not match any
+			error: failed to push some refs to 'https://github.com/abhishekpawar-asp/abhishekpawar.git' execute : "git pull --rebase origin master" </p>
+  
+  <p> Add online remote repository: "get remote add origin https://github.com/abhishekpawar-asp/abhishekpawar.git", to avoid the providing URL path all the time use provide alise name "origin" </p>
+  <p>Execute : "git remote" to verify </p>
+  <p>Execute : "git remote -v" with version </p>
+  <p>To upload the file from local repo to online git repo : "git push -u origin master/main" (-u for tracking) </p>
+  <p>if need to update and upload the file again on git repo then execute : </p>
+  <p>git add .</p>
+  <p>git commit -m 'Final Change' </p>
+  <p>git status </p>
+  <p>git push -u origin1 main </p>
+
+  <h2> To create multiple branches of same copy and share with limited access </h2>
+  <p> Create branch : "git brach name" </p>
+  <p> To switch from one branch to another branch : "git checkout name" </p>
+  <p> Share the code with another brach edit index.html (make the changes) </p>
+  <p> Do "git add ." and "git commit -m 'new_change'" then push the file to new brach "Test" </p>
+  
+  
+</body>
+</html>
